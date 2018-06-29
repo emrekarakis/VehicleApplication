@@ -1,0 +1,37 @@
+﻿@model Vehicle
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+<div class="row">
+    <div class="col-md-3">
+
+        @await Component.InvokeAsync("Menu")
+    </div>
+    <div class="col-md-9">
+
+        <div class="card">
+            <img class="card-img-top" src="~/img/@Model.Image" alt="@Model.Brand">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Brand (@Model.NickName)</h5>
+                <p class="card-text">@Model.Color renkli @Model.ModelYear yılında üretilmiş @Model.Model model @Model.Type @Model.Plate plakasıyla
+                    @if (Model.IsActive)
+                    {
+                        @:aktif olarak kullanılmaktadır.
+                    }
+                    else
+                    {
+                        @:aktif olarak kullanılmamaktadır.
+                    }
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+
+        </div>
+        </div>
+    </div>
+
+
+</div>

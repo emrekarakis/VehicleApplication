@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_VehicleApp.1749959355.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="VehicleApp.MvcWebUI" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="RecordController.cs" t="Include" />
+          <e p="VehicleController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Category.cs" t="Include" />
+          <e p="CategoryRepository.cs" t="Include" />
+          <e p="Vehicle.cs" t="Include" />
+          <e p="VehicleRepository.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="VehicleApp.MvcWebUI.csproj" t="IncludeRecursive" />
+        <e p="ViewComponents" t="Include">
+          <e p="MenuViewComponent.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="Home" t="Include">
+            <e p="Details.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Record" t="Include">
+            <e p="Add.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Search.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="Components" t="Include">
+              <e p="Menu" t="Include">
+                <e p="Default.cshtml" t="Include" />
+              </e>
+            </e>
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_VehicleList.cshtml" t="Include" />
+            <e p="_footer.cshtml" t="Include" />
+            <e p="_header.cshtml" t="Include" />
+          </e>
+          <e p="Vehicle" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="bower.json" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="VehicleApp.MvcWebUI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="style.css" t="Include" />
+          </e>
+          <e p="img" t="Include">
+            <e p="1.jpg" t="Include" />
+            <e p="2.jpg" t="Include" />
+            <e p="3.jpg" t="Include" />
+            <e p="4.jpg" t="Include" />
+            <e p="5.jpg" t="Include" />
+            <e p="6.jpg" t="Include" />
+            <e p="7.jpg" t="Include" />
+            <e p="8.jpg" t="Include" />
+            <e p="9.jpg" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="holder.min.js" t="Include" />
+            <e p="popper.min.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="CHANGELOG.md" t="Include" />
+              <e p="Gemfile" t="Include" />
+              <e p="Gemfile.lock" t="Include" />
+              <e p="Gruntfile.js" t="Include" />
+              <e p="LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+              <e p="bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="npm.js" t="Include" />
+                  <e p="umd" t="Include">
+                    <e p="alert.js" t="Include" />
+                    <e p="button.js" t="Include" />
+                    <e p="carousel.js" t="Include" />
+                    <e p="collapse.js" t="Include" />
+                    <e p="dropdown.js" t="Include" />
+                    <e p="modal.js" t="Include" />
+                    <e p="popover.js" t="Include" />
+                    <e p="scrollspy.js" t="Include" />
+                    <e p="tab.js" t="Include" />
+                    <e p="tooltip.js" t="Include" />
+                    <e p="util.js" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="grunt" t="Include">
+                <e p="bs-commonjs-generator.js" t="Include" />
+                <e p="bs-sass-compile" t="Include">
+                  <e p="libsass.js" t="Include" />
+                  <e p="sass.js" t="Include" />
+                </e>
+                <e p="change-version.js" t="Include" />
+                <e p="configBridge.json" t="Include" />
+                <e p="npm-shrinkwrap.json" t="Include" />
+                <e p="sauce_browsers.yml" t="Include" />
+              </e>
+              <e p="js" t="Include">
+                <e p=".eslintrc" t="Include" />
+                <e p=".jscsrc" t="Include" />
+                <e p="dist" t="Include">
+                  <e p="alert.js" t="Include" />
+                  <e p="alert.js.map" t="Include" />
+                  <e p="button.js" t="Include" />
+                  <e p="button.js.map" t="Include" />
+                  <e p="carousel.js" t="Include" />
+                  <e p="carousel.js.map" t="Include" />
+                  <e p="collapse.js" t="Include" />
+                  <e p="collapse.js.map" t="Include" />
+                  <e p="dropdown.js" t="Include" />
+                  <e p="dropdown.js.map" t="Include" />
+                  <e p="modal.js" t="Include" />
+                  <e p="modal.js.map" t="Include" />
+                  <e p="popover.js" t="Include" />
+                  <e p="popover.js.map" t="Include" />
+                  <e p="scrollspy.js" t="Include" />
+                  <e p="scrollspy.js.map" t="Include" />
+                  <e p="tab.js" t="Include" />
+                  <e p="tab.js.map" t="Include" />
+                  <e p="tooltip.js" t="Include" />
+                  <e p="tooltip.js.map" t="Include" />
+                  <e p="util.js" t="Include" />
+                  <e p="util.js.map" t="Include" />
+                </e>
+                <e p="src" t="Include">
+                  <e p="alert.js" t="Include" />
+                  <e p="button.js" t="Include" />
+                  <e p="carousel.js" t="Include" />
+                  <e p="collapse.js" t="Include" />
+                  <e p="dropdown.js" t="Include" />
+                  <e p="modal.js" t="Include" />
+                  <e p="popover.js" t="Include" />
+                  <e p="scrollspy.js" t="Include" />
+                  <e p="tab.js" t="Include" />
+                  <e p="tooltip.js" t="Include" />
+                  <e p="util.js" t="Include" />
+                </e>
+              </e>
+              <e p="nuget" t="Include">
+                <e p="MyGet.ps1" t="Include" />
+                <e p="bootstrap.nuspec" t="Include" />
+                <e p="bootstrap.sass.nuspec" t="Include" />
+              </e>
+              <e p="package.js" t="Include" />
+              <e p="package.json" t="Include" />
+              <e p="sache.json" t="Include" />
+              <e p="scss" t="Include">
+                <e p=".csscomb.json" t="Include" />
+                <e p=".scss-lint.yml" t="Include" />
+                <e p="_alert.scss" t="Include" />
+                <e p="_animation.scss" t="Include" />
+                <e p="_breadcrumb.scss" t="Include" />
+                <e p="_button-group.scss" t="Include" />
+                <e p="_buttons.scss" t="Include" />
+                <e p="_card.scss" t="Include" />
+                <e p="_carousel.scss" t="Include" />
+                <e p="_close.scss" t="Include" />
+                <e p="_code.scss" t="Include" />
+                <e p="_custom-forms.scss" t="Include" />
+                <e p="_dropdown.scss" t="Include" />
+                <e p="_forms.scss" t="Include" />
+                <e p="_grid.scss" t="Include" />
+                <e p="_images.scss" t="Include" />
+                <e p="_input-group.scss" t="Include" />
+                <e p="_jumbotron.scss" t="Include" />
+                <e p="_labels.scss" t="Include" />
+                <e p="_list-group.scss" t="Include" />
+                <e p="_media.scss" t="Include" />
+                <e p="_mixins.scss" t="Include" />
+                <e p="_modal.scss" t="Include" />
+                <e p="_nav.scss" t="Include" />
+                <e p="_navbar.scss" t="Include" />
+                <e p="_normalize.scss" t="Include" />
+                <e p="_pager.scss" t="Include" />
+                <e p="_pagination.scss" t="Include" />
+                <e p="_popover.scss" t="Include" />
+                <e p="_print.scss" t="Include" />
+                <e p="_progress.scss" t="Include" />
+                <e p="_reboot.scss" t="Include" />
+                <e p="_responsive-embed.scss" t="Include" />
+                <e p="_tables.scss" t="Include" />
+                <e p="_tooltip.scss" t="Include" />
+                <e p="_type.scss" t="Include" />
+                <e p="_utilities-background.scss" t="Include" />
+                <e p="_utilities-responsive.scss" t="Include" />
+                <e p="_utilities-spacing.scss" t="Include" />
+                <e p="_utilities.scss" t="Include" />
+                <e p="_variables.scss" t="Include" />
+                <e p="bootstrap-flex.scss" t="Include" />
+                <e p="bootstrap-grid.scss" t="Include" />
+                <e p="bootstrap-reboot.scss" t="Include" />
+                <e p="bootstrap.scss" t="Include" />
+                <e p="mixins" t="Include">
+                  <e p="_alert.scss" t="Include" />
+                  <e p="_background-variant.scss" t="Include" />
+                  <e p="_border-radius.scss" t="Include" />
+                  <e p="_breakpoints.scss" t="Include" />
+                  <e p="_buttons.scss" t="Include" />
+                  <e p="_cards.scss" t="Include" />
+                  <e p="_center-block.scss" t="Include" />
+                  <e p="_clearfix.scss" t="Include" />
+                  <e p="_forms.scss" t="Include" />
+                  <e p="_gradients.scss" t="Include" />
+                  <e p="_grid-framework.scss" t="Include" />
+                  <e p="_grid.scss" t="Include" />
+                  <e p="_hover.scss" t="Include" />
+                  <e p="_image.scss" t="Include" />
+                  <e p="_label.scss" t="Include" />
+                  <e p="_list-group.scss" t="Include" />
+                  <e p="_lists.scss" t="Include" />
+                  <e p="_nav-divider.scss" t="Include" />
+                  <e p="_navbar-align.scss" t="Include" />
+                  <e p="_pagination.scss" t="Include" />
+                  <e p="_progress.scss" t="Include" />
+                  <e p="_pulls.scss" t="Include" />
+                  <e p="_reset-filter.scss" t="Include" />
+                  <e p="_reset-text.scss" t="Include" />
+                  <e p="_resize.scss" t="Include" />
+                  <e p="_screen-reader.scss" t="Include" />
+                  <e p="_size.scss" t="Include" />
+                  <e p="_tab-focus.scss" t="Include" />
+                  <e p="_table-row.scss" t="Include" />
+                  <e p="_text-emphasis.scss" t="Include" />
+                  <e p="_text-hide.scss" t="Include" />
+                  <e p="_text-truncate.scss" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="jquery" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="LICENSE.md" t="Include" />
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="VehicleApp.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

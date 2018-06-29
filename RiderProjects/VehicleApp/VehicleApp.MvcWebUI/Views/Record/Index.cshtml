@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Vehicle>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Record List</title>
+</head>
+<body>
+<div>
+    <table class="table table-sm table-bordered">
+        <thead class="bg-primary text-white">
+        
+        <th>Plate </th>
+        <th>NickName </th>
+        <th>Brand </th>
+        <th>Model </th>
+        <th>ModelYear </th>
+        <th>Type </th>
+        <th>Color </th>
+        <th>IsActive</th>
+        </thead>
+        
+        
+        <tbody>
+        
+        @foreach (var vehicle in Model)
+        {
+            <tr>
+                <td>@vehicle.Plate</td>
+                
+                <td>@vehicle.NickName</td>
+
+                <td>@vehicle.Brand</td>
+
+                <td>@vehicle.Model</td>
+
+                <td>@vehicle.ModelYear</td>
+
+                <td>@vehicle.Type</td>
+
+                <td>@vehicle.Color</td>
+
+                <td>@if (vehicle.IsActive)
+                    {
+                        <span class="badge badge-pill badge-success">Active</span>
+                    }else{
+                        <span class="badge badge-pill badge-danger">Inactive</span>
+                    
+                    }
+                
+                
+                
+                    </td>
+
+                <td><a class="btn btn-danger btn-sm" asp-controller="Record" asp-action="Edit" asp-route-id="@vehicle.Id">Update</a>
+
+                </td>
+            </tr>
+            
+        }
+        </tbody>
+        
+    </table> 
+    
+    <a class="btn btn-primary" asp-controller="Record" asp-action="Add">Create</a>
+</div>
+</body>
+</html>

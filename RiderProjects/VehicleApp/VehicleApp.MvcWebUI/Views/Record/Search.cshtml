@@ -1,0 +1,23 @@
+﻿@{
+
+    ViewData["Title"] = "Search";
+}
+
+<h2 class="text-muted text-black-50 text-center"> Vehicle Search</h2>
+
+
+<br/>
+<div class="container">
+<form action="/Record/Search" method="get">
+    
+    <div class="form-group">
+        
+        <label for="query"></label>
+        <input type="text" name="query" id="query" class="form-control"/>
+        
+    </div>
+    <input type="submit" class="btn btn-primary" value="Submit"/>
+    
+</form>
+
+</div>
